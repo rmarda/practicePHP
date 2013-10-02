@@ -6,6 +6,6 @@
     </head>
     <body>
         <h1> Practice PHP</h1>
-        <?php echo 'This is a practice page;'?>
+        <?php echo 'This is a practice page';?>
     </body>
 </html>
