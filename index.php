@@ -8,11 +8,11 @@
     </head>
     <body>
         <h1> Practice PHP</h1>
-        The square of 4 is: <?=$square?>
-        My favorite color: <?=$favorite_color?>
+        The square of 4 is: <?=$square?><br>
+        My favorite color: <? echo $favorite_color?><br>
         User name: <?=$username?>
         <br>
-        PHP Storm keyboard shortcuts:
+        <strong>PHP Storm keyboard shortcuts:</strong><br>
         Basic Code Completion: Ctrl + Space <br>
         Type Completion:       Ctrl + Shift + Space <br>
         Complete Statements:   Ctrl + Shift + Enter <br>
