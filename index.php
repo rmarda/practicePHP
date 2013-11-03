@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>practice PHP</title>
         <meta charset="utf-8" />
-        <?php require_once('logic.php');?>
 
-        <link href="default.css" rel="stylesheet" type="text/css" media="screen">
+        <title>Micro Blog</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Metrophobic|Droid+Sans:400,700|Droid+Sans+Mono|Open+Sans:400italic,700italic,800italic,300italic,600italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+        <link href="styles/default.css" rel="stylesheet" />
+
     </head>
 
     <body>
-    <form action = 'index.php' method='POST'>
-        <input type="text" name="Player1"><br>
-        <input type="text" name="Player2"><br>
-        <input type="text" name="Player3"><br>
-        <input type="text" name="Player4"><br>
-        <input type="Submit"><br>
-    </form>
+    <div id="wrapper">
+        <header>
+            <img id="logo" src="images/Blogging.jpg" alt="Micro blog Logo" />
+            <h1>Micro Blog</h1>
+        </header>
 
-    <table>
-    <?php foreach($contestants as $key => $value):?>
-    <tr>
-        <td><?=$key?> </td>
-        <td><?=$value?></td>
-    </tr>
-    <?php endforeach;?>
-    </table>
+        <section id="feature_area">
+
+            <article>
+                <div class="inner" id="about">
+                    <p>Welcome to my micro blog. </p>
+                    <p>Welcome to my micro blog. </p>
+                    <p>Welcome to my micro blog. </p>
+                    <p>Welcome to my micro blog. </p>
+                    <p>Welcome to my micro blog. </p>
+                </div>
+            </article>
+
+            <article>
+                <div class="inner" id="login">
+                    <p>Please sign in</p>
+                    <p>Please sign in</p>
+                    <p>Please sign in</p>
+                    <p>Please sign in</p>
+
+
+                </div>
+            </article>
+
+        </section>
+
+        <footer>
+            <p>Copyright, All rights reserved.</p>
+        </footer>
+    </div>
+
     </body>
-
 </html>
