@@ -26,21 +26,32 @@
 
             <article>
                 <div class="inner" id="about">
-                    <p>Welcome to my micro blog. </p>
-                    <p>Welcome to my micro blog. </p>
-                    <p>Welcome to my micro blog. </p>
-                    <p>Welcome to my micro blog. </p>
-                    <p>Welcome to my micro blog. </p>
+                    <h3>Welcome!</h3>
+                    <p>Welcome to my Micro Blog. This app enables users to write posts and view posts from other users based upon their liking. Please <span style="color:orange">sign in</span> on the right hand side pane if you are an existing user or <a href="#" >register </a> with us.</p>
+
                 </div>
             </article>
 
             <article>
                 <div class="inner" id="login">
-                    <p>Please sign in</p>
-                    <p>Please sign in</p>
-                    <p>Please sign in</p>
-                    <p>Please sign in</p>
+                    <h3>Please Sign In</h3><br />
+                    <form id="siginform" action ="index.php" method="post">
+                        <fieldset>
+                            <p class="note">* indicates required field</p>
+                            <section id="email">
+                                <label for="email" id="email">Email<span> *</span></label>
+                                <input type="text" id="email" name="email" />
+                            </section>
+                            <section id="password">
+                                <label for="password">Password<span> *</span></label>
+                                <input type="password" id="password" name="password" maxlength="20" />
 
+                            </section>
+                            <section>
+                                <input type="submit" value="Submit" />
+                            </section>
+                        </fieldset>
+                    </form>
                 </div>
             </article>
 

@@ -18,6 +18,7 @@ header {
     background:#a292ac;
     padding:3px 10px;
 }
+
 #wrapper > header{
     position:relative;
 }
@@ -51,13 +52,37 @@ img#logo {
 
 }
 
-section#feature_area  article {
+section#feature_area  article div#about{
     float:left;
-    width:460px;
-    padding:10px 10px;
+    width:440px;
+    padding:10px 20px;
     background:#fff;
+    margin:20px;
 
 }
+
+section#feature_area  article div#login {
+    float:left;
+    width:340px;
+    padding:10px 20px;
+    background:#fff;
+    margin:20px;
+
+}
+
+section#feature_area  article #about p{
+    text-align:justify;
+    vertical-align: middle;
+    font-size:1.1em;
+    font-style:italic;
+}
+
+section#feature_area  article h3{
+    margin:20px auto;
+    font-family:Metrophobic;
+    text-align:center;
+}
+
 section#feature_area{
     border-top:4px solid #f7be84;
 }
@@ -87,7 +112,50 @@ section#feature_area article p {
     text-align:center;
     color:#616161;
 }
+/* Sign In form fields */
+#siginform fieldset {
+    margin:0;
+    padding:0 0 .2em 0;
+    width:100%;
+    border:0;
+}
 
+#siginform fieldset section{
+    margin:.6em .6em 0 0; /* right margin ensures label text wraps before touching input */
+    padding-bottom:.2em;
+    font-family:Metrophobic;
+    font-size:1.0em;
+    font-weight:400;
+    line-height:1.1;
+    width: 22em;
+    clear: both;
+}
+
+#siginform fieldset p.note {
+
+    color:red;
+    font-size:0.9em;
+}
+
+#siginform fieldset section label{
+    float:left;
+    width:8em;
+    margin-bottom:10px;
+
+}
+
+#siginform fieldset section input{
+    float:left;
+    width:12em;
+    margin-bottom:10px;
+}
+
+#siginform fieldset section input[type=submit] {
+    float:none;
+
+}
+
+/*end of style for form fields*/
 footer {
     clear:both;
     text-align:center;
