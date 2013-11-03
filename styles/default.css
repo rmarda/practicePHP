@@ -128,5 +128,11 @@ nav{
     padding:0 16px;
     text-decoration:none;
     color: #677190
+}
 
+.mainmenu li + li a {
+    border-left:1px solid #677190;
+}
+.mainmenu a:hover {
+    color:#20388C;
 }
