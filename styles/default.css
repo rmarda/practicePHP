@@ -18,10 +18,28 @@ header {
     background:#a292ac;
     padding:3px 10px;
 }
+#wrapper > header{
+    position:relative;
+}
 
 header h1 {
     font-family:Metrophobic;
     font-size:2.5em;
+    letter-spacing:-.05em;
+    color:#fff;
+}
+
+#accountHeader{
+    position: absolute;
+    top:25px;
+    right:100px;
+    text-align: right;
+
+}
+
+header h5 {
+    font-family:Metrophobic;
+    font-size:.9em;
     letter-spacing:-.05em;
     color:#fff;
 }
@@ -90,4 +108,25 @@ footer a {
     font-size:1em;
     color:#f7be84;
     text-decoration:none;
+}
+
+/*navigation related*/
+nav{
+    background:#f7be84;
+    color: #838898;
+    padding:3px 10px;
+}
+.mainmenu ul{
+    overflow:hidden;
+}
+.mainmenu li{
+    float:left;
+    list-style-type:none;
+}
+.mainmenu a{
+    display:block;
+    padding:0 16px;
+    text-decoration:none;
+    color: #677190
+
 }

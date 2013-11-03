@@ -15,6 +15,11 @@
         <header>
             <img id="logo" src="images/Blogging.jpg" alt="Micro blog Logo" />
             <h1>Micro Blog</h1>
+            <hgroup id="accountHeader">
+                <h5>Welcome user!<h5>
+                <h5>Log Out<h5>
+            </hgroup>
+
         </header>
 
         <section id="feature_area">
@@ -35,7 +40,6 @@
                     <p>Please sign in</p>
                     <p>Please sign in</p>
                     <p>Please sign in</p>
-
 
                 </div>
             </article>
