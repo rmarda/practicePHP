@@ -39,12 +39,12 @@
                         <fieldset>
                             <p class="note">* indicates required field</p>
                             <section id="email">
-                                <label for="email" id="email">Email<span> *</span></label>
-                                <input type="text" id="email" name="email" />
+                                <label for="email" >Email<span> *</span></label>
+                                <input type="text" name="email" />
                             </section>
                             <section id="password">
                                 <label for="password">Password<span> *</span></label>
-                                <input type="password" id="password" name="password" maxlength="20" />
+                                <input type="password" name="password" maxlength="20" />
 
                             </section>
                             <section>
